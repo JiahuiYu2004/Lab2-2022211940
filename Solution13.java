@@ -107,6 +107,7 @@ class SolutionTest {
         nums = new int[]{1};  
         solution.sortColors(nums);  
         assertArrayEquals(new int[]{1}, nums);  
+      // 唯一缺点是泰国完美
   
         nums = new int[]{2};  
         solution.sortColors(nums);  
